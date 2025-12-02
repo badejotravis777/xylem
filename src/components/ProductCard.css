@@ -1,0 +1,107 @@
+.pro-card {
+    background: #fafafc;
+  }
+  
+  .pro-card:hover {
+    background: #ffffff;
+    box-shadow: 0 20px 34px rgba(0,0,0,0.06);
+    transform: translateY(-4px);
+  }
+  
+  
+  /* IMAGE BOX */
+  .pro-card-img-box {
+    position: relative;
+    width: 100%;
+    height: 260px; /* SAME for ALL products */
+    overflow: hidden;
+    background: #f8f8f8;
+  }
+  
+  .pro-card-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* keeps ratio but consistent shape */
+  }
+  
+  /* ICONS */
+  .pro-card-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .icon-btn {
+    background: #ffffffdd;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .icon-btn:hover {
+    background: #005bea;
+    color: #fff;
+  }
+  
+  /* PRODUCT INFO */
+  .pro-card-info {
+    padding: 14px 16px;
+  }
+  
+  .pro-category {
+    font-size: 12px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .pro-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 3px 0;
+    color: #111;
+  }
+  
+  .pro-price {
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #005bea;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .pro-card-img-box {
+      height: 200px;
+    }
+  }
+  
+
+  .menu-bar {
+  background: #f7f9fc;
+  border-bottom: 1px solid #dce1e7;
+}
+
+.active-heart {
+    background: #ff2f5b !important;
+    color: #fff !important;
+    transform: scale(1.15);
+  }
+  
+  .active-cart {
+    background: #005bea !important;
+    color: #fff !important;
+    transform: scale(1.15);
+  }
+  
+  .icon-btn {
+    transition: 0.25s ease;
+  }
+  

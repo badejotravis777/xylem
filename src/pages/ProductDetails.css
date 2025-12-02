@@ -1,0 +1,228 @@
+.pd-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 22px;
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    gap: 40px;
+  }
+  
+  /* LEFT IMAGE */
+  .pd-image-box {
+    background: #fff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+  }
+  
+  .pd-image-box img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* RIGHT SIDE */
+  .pd-category {
+    font-size: 14px;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 6px;
+  }
+  
+  .pd-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    color: #111;
+  }
+  
+  .pd-price-box {
+    background: var(--accent);
+    padding: 14px 18px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 18px 0;
+  }
+  
+  .pd-price {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--primary);
+  }
+  
+  .pd-description {
+    line-height: 1.6;
+    margin: 15px 0 25px;
+    font-size: 15px;
+    color: #444;
+  }
+  
+  /* FEATURES */
+  .pd-features {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .pd-feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pd-circle {
+    width: 10px;
+    height: 10px;
+    background: var(--primary);
+    border-radius: 50%;
+  }
+  
+  /* CTA BUTTON */
+  .pd-buy-btn {
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.15s ease;
+  }
+  
+  .pd-buy-btn:hover {
+    background: #0047b7;
+  }
+  
+
+  /* BREADCRUMB */
+.pd-breadcrumb {
+    max-width: 1200px;
+    margin: 20px auto 10px;
+    padding: 0 22px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .pd-breadcrumb a {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .pd-breadcrumb p {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* CTA BUTTONS */
+  .pd-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .pd-cart-btn {
+    background: #fff;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.15s;
+  }
+  
+  .pd-cart-btn:hover {
+    background: var(--primary);
+    color: #fff;
+  }
+  
+  /* TRUST BADGES */
+  .pd-trust {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .pd-badge-icon {
+    width: 12px;
+    height: 12px;
+    background: var(--primary);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  /* RELATED PRODUCTS */
+  .pd-related-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 22px;
+  }
+  
+  .pd-related-section h2 {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+  
+  .pd-related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+  }
+  
+  .pd-related-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  
+  .pd-related-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .pd-related-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pd-related-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .pd-related-price {
+    color: var(--primary);
+    font-weight: 700;
+    margin-top: 4px;
+  }
+  
+  /* CATEGORY BREADCRUMB LOOK LIKE NORMAL TEXT */
+.pd-breadcrumb-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pd-breadcrumb-btn:hover {
+    text-decoration: underline;
+}
