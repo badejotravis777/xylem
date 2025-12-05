@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { products } from "../data/products";
 import PaymentModal from "../components/PaymentModal";
+import Footer from "../components/Footer";
 import toast from "react-hot-toast";
 import "./ProductDetails.css";
 
@@ -144,6 +145,8 @@ const ProductDetails = () => {
       </div>
 
       <PaymentModal open={open} onClose={() => setOpen(false)} product={product} />
+
+      <Footer />
     </>
   );
 };

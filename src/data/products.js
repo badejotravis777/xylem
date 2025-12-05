@@ -5,7 +5,7 @@ export const products = [
       price: 250000,
       category: "Hyaluronic acids",
       image: "/assets/Hyaluronic acid (HMW).png",
-      description: "Fresh floral fragrance, long lasting."
+      description: "High-molecular-weight hyaluronic acid that provides long-lasting hydration, enhances skin smoothness, and boosts elasticity in moisturizing formulations."
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ export const products = [
       price: 300000,
       category: "Hyaluronic acids",
       image: "/assets/Hyaluronic acid (HMW).png",
-      description: "Rich oriental notes, ideal for gifting."
+      description: "Low-molecular-weight hyaluronic acid that penetrates deeper into the skin to provide intense hydration, improve elasticity, and support anti-aging formulations."
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ export const products = [
       price: 150000,
       category: "Actives",
       image: "/assets/Ferulic Acid.png",
-      description: "Luxurious scent with classic arabian notes."
+      description: "A powerful antioxidant that enhances the stability and effectiveness of vitamins C & E while protecting skin from environmental damage."
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ export const products = [
       price: 65000,
       category: "Powders/Enzymes",
       image: "/assets/Bromelin enzyme.png",
-      description: "Green pistachio & sweet fragrances."
+      description: "A natural exfoliating enzyme derived from pineapple that gently removes dead skin cells and promotes smoother, brighter skin."
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ export const products = [
       price: 35000,
       category: "Powders/Enzymes",
       image: "/assets/Papain enzyme.png",
-      description: "Nourishing oil for radiant skin."
+      description: "A mild, plant-based exfoliating enzyme from papaya used to improve skin texture and clarity."
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ export const products = [
       price: 80000,
       category: "Powders/Enzymes",
       image: "/assets/Mequinol.png",
-      description: "Deep hydration and long-lasting softness."
+      description: "A skin-lightening active used to reduce dark spots, hyperpigmentation, and uneven skin tone."
     },
 
     {
@@ -54,7 +54,7 @@ export const products = [
         price: 55000,
         category: "Powders/Enzymes",
         image: "/assets/Azelaic acid.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A multifunctional brightening and anti-inflammatory ingredient that helps treat acne, reduce redness, and fade dark spots."
       },
 
       {
@@ -63,7 +63,7 @@ export const products = [
         price: 65000,
         category: "Powders/Enzymes",
         image: "/assets/Odour Shield (zinc ricinoleate).png",
-        description: "Deep hydration and long-lasting softness."
+        description: "An effective deodorizing agent that traps and neutralizes odors without disrupting natural skin microbiome."
       },
 
       {
@@ -72,7 +72,7 @@ export const products = [
         price: 170000,
         category: "Powders/Enzymes",
         image: "/assets/Zinc PCA.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A soothing and oil-regulating active that reduces sebum production and supports acne-prone skin."
       },
 
       {
@@ -81,7 +81,7 @@ export const products = [
         price: 65000,
         category: "Powders/Enzymes",
         image: "/assets/Crothix.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A liquid thickener that increases the viscosity of surfactant systems while improving clarity and stability."
       },
 
       {
@@ -90,7 +90,7 @@ export const products = [
         price: 400000,
         category: "Powders/Enzymes",
         image: "/assets/Sepi White MSH.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A premium brightening active that targets pigmentation and helps achieve an even, radiant complexion."
       },
 
       {
@@ -99,7 +99,7 @@ export const products = [
         price: 350000,
         category: "Powders/Enzymes",
         image: "/assets/Symwhite.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A powerful antioxidant and brightening ingredient that reduces discoloration and supports a more luminous skin tone."
       },
 
       {
@@ -108,7 +108,7 @@ export const products = [
         price: 150000,
         category: "Powders/Enzymes",
         image: "/assets/Alpha Arbutin.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A gentle and highly effective skin-brightening active used to fade dark spots and even out skin tone."
       },
 
       {
@@ -117,7 +117,7 @@ export const products = [
         price: 75000,
         category: "Powders/Enzymes",
         image: "/assets/Kojic dipalmitate.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A stable, oil-soluble brightening agent that helps reduce pigmentation and promote a more uniform complexion."
       },
 
       {
@@ -126,7 +126,7 @@ export const products = [
         price: 20000,
         category: "Powders/Enzymes",
         image: "/assets/Gluconolactone.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A gentle PHA that exfoliates, hydrates, and supports sensitive skin while improving overall texture."
       },
 
       {
@@ -135,7 +135,7 @@ export const products = [
         price: 65000,
         category: "Powders/Enzymes",
         image: "/assets/Yeast beta glucan.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A soothing, protective ingredient that enhances skin repair and boosts moisture retention."
       },
 
 
@@ -145,7 +145,7 @@ export const products = [
         price: 65000,
         category: "Powders/Enzymes",
         image: "/assets/Oat beta glucan.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A calming, hydrating active known for reducing irritation and strengthening the skin barrier."
       },
 
 
@@ -155,7 +155,7 @@ export const products = [
         price: 100000,
         category: "Powders/Enzymes",
         image: "/assets/Silky peptide.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A smoothing peptide that enhances skin softness, texture, and overall appearance."
       },
 
       {
@@ -164,7 +164,7 @@ export const products = [
         price: 15000,
         category: "Powders/Enzymes",
         image: "/assets/Lotionpro.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A premium emulsifier that creates stable, silky lotions and creams with excellent skin feel.."
       },
 
       {
@@ -173,7 +173,7 @@ export const products = [
         price: 55000,
         category: "Powders/Enzymes",
         image: "/assets/DL-Panthenol powder.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A pro-vitamin B5 active that hydrates, soothes, and improves skin elasticity."
       },
 
 
@@ -183,7 +183,7 @@ export const products = [
         price: 8500,
         category: "Powders/Enzymes",
         image: "/assets/Beeswax.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A natural thickener and stabilizer that provides structure, moisture barrier protection, and a smooth texture."
       },
 
       {
@@ -192,7 +192,7 @@ export const products = [
         price: 70000,
         category: "Powders/Enzymes",
         image: "/assets/Clotrimazole.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "An antifungal active used to treat and prevent fungal skin infections."
       },
 
 
@@ -202,7 +202,7 @@ export const products = [
         price: 8000,
         category: "Powders/Enzymes",
         image: "/assets/Xanthan gum.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A natural thickener that stabilizes gels, creams, and serums with excellent consistency control"
       },
 
       {
@@ -211,7 +211,7 @@ export const products = [
         price: 3000,
         category: "Powders/Enzymes",
         image: "/assets/Bentonite clay.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A detoxifying clay that absorbs excess oil and impurities, ideal for masks and deep-cleansing formulations."
       },
 
 
@@ -221,7 +221,7 @@ export const products = [
         price: 18000,
         category: "Powders/Enzymes",
         image: "/assets/HEC.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A thickening agent that enhances viscosity and texture in gels, cleansers, and serums."
       },
 
       {
@@ -230,7 +230,7 @@ export const products = [
         price: 15000,
         category: "Powders/Enzymes",
         image: "/assets/Allantoin.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A soothing and healing ingredient that calms irritation and promotes skin repair."
       },
 
       {
@@ -239,7 +239,7 @@ export const products = [
         price: 20000,
         category: "Powders/Enzymes",
         image: "/assets/Niacinamide.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A versatile active that improves skin tone, strengthens the barrier, reduces oil, and fades dark spots."
       },
 
       {
@@ -248,7 +248,7 @@ export const products = [
         price: 17000,
         category: "Powders/Enzymes",
         image: "/assets/Phenoxyethanol.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A widely used preservative that protects formulas from contamination and extends shelf life."
       },
 
       {
@@ -267,7 +267,7 @@ export const products = [
         price: 300000,
         category: "Liquids/Oils",
         image: "/assets/Alpha Bisabolol.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A calming, anti-inflammatory ingredient that reduces redness and sensitivity."
       },
 
       {
@@ -276,7 +276,7 @@ export const products = [
         price: 70000,
         category: "Liquids/Oils",
         image: "/assets/Snail filtrate.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A hydrating and repairing active that promotes smoothness, elasticity, and skin regeneration."
       },
 
       {
@@ -285,7 +285,7 @@ export const products = [
         price: 100000,
         category: "Liquids/Oils",
         image: "/assets/Astaxantin oil.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A potent antioxidant oil that protects skin from oxidative stress and supports anti-aging benefits."
       },
 
       {
@@ -294,7 +294,7 @@ export const products = [
         price: 70000,
         category: "Liquids/Oils",
         image: "/assets/Bergamot oil.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A refreshing essential oil with antibacterial and balancing properties."
       },
 
       {
@@ -303,7 +303,7 @@ export const products = [
         price: 70000,
         category: "Liquids/Oils",
         image: "/assets/Teatree essential oil.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A powerful antimicrobial essential oil ideal for acne-prone and reactive skin."
       },
 
 
@@ -313,7 +313,7 @@ export const products = [
         price: 80000,
         category: "Liquids/Oils",
         image: "/assets/Geranium Essential Oil.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A balancing essential oil that supports skin regeneration and helps regulate oil production."
       },
 
 
@@ -323,7 +323,7 @@ export const products = [
         price: 45000,
         category: "Liquids/Oils",
         image: "/assets/Lavender essential oil.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A calming essential oil known for soothing skin and reducing irritation."
       },
 
       {
@@ -332,7 +332,7 @@ export const products = [
         price: 12000,
         category: "Liquids/Oils",
         image: "/assets/Polyquat 7.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A conditioning agent that improves softness and detangling in haircare formulations."
       },
 
       {
@@ -341,7 +341,7 @@ export const products = [
         price: 10000,
         category: "Liquids/Oils",
         image: "/assets/Polysorbate 80.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A solubilizer and emulsifier used to blend oils with water in sprays, serums, and cleansers."
       },
 
       {
@@ -350,7 +350,7 @@ export const products = [
         price: 28000,
         category: "Liquids/Oils",
         image: "/assets/Caprylic triglycerides.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A lightweight, non-greasy emollient that softens skin and enhances product glide."
       },
 
 
@@ -360,7 +360,7 @@ export const products = [
         price: 20000,
         category: "Liquids/Oils",
         image: "/assets/PEG 40 (hydrogenated castor).png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A solubilizer used to blend essential oils, fragrances, and actives into water-based formulas."
       },
 
       {
@@ -369,7 +369,7 @@ export const products = [
         price: 15000,
         category: "Liquids/Oils",
         image: "/assets/PEG 7.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A mild emollient and surfactant that adds softness and improves skin feel."
       },
 
 
@@ -379,7 +379,7 @@ export const products = [
         price: 20000,
         category: "Liquids/Oils",
         image: "/assets/Sepi Max Zen.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A premium polymer that creates elegant, smooth gel creams with high stability and clarity."
       },
 
       {
@@ -388,7 +388,7 @@ export const products = [
         price: 190000,
         category: "Liquids/Oils",
         image: "/assets/Thiamidol.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A highly advanced brightening active that targets dark spots with clinical effectiveness."
       },
 
 
@@ -398,7 +398,7 @@ export const products = [
         price: 30000,
         category: "Liquids/Oils",
         image: "/assets/Matrixyl 3000.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A peptide complex that boosts collagen production and reduces visible signs of aging."
       },
 
 
@@ -408,7 +408,7 @@ export const products = [
         price: 20000,
         category: "Liquids/Oils",
         image: "/assets/Acetyl hexapeptide-8.png",
-        description: "Deep hydration and long-lasting softness."
+        description: "A well-known peptide that softens expression lines and supports anti-aging formulations."
       },
 
 

@@ -14,9 +14,9 @@ const MenuBar = ({ onToggleSidebar }) => {
   Home
 </Link>
 
-        <a href="/products">Shop</a>
+    
         <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+       
       </nav>
     </div>
   );

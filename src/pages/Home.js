@@ -4,6 +4,7 @@ import AnnouncementBar from "../components/AnnouncementBar";
 import MenuBar from "../components/MenuBar";
 import CategorySidebar from "../components/CategorySidebar";
 import ProductGrid from "../components/ProductGrid";
+import Footer from "../components/Footer";
 import { products } from "../data/products";
 import { useLocation } from "react-router-dom";
 
@@ -100,12 +101,14 @@ const Home = () => {
       {/* WHATSAPP BUTTON */}
       <a
         className="wa-float"
-        href="https://wa.me/234XXXXXXXXXX?text=Hello%20Xylus%20Essentials"
+        href="https://wa.me/2348137223401?text=Hello%20Xylus%20Essentials"
         target="_blank"
         rel="noopener noreferrer"
       >
         💬
       </a>
+      <Footer />
+
     </>
   );
 };

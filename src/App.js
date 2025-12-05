@@ -5,6 +5,7 @@ import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import Wishlist from "./pages/Wishlist";
 import Cart from './pages/Cart';
+import About from "./pages/About";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
          {/* NEW PAGES */}
   <Route path="/wishlist" element={<Wishlist />} />
   <Route path="/cart" element={<Cart />} />
+  <Route path="/about" element={<About />} />
       </Routes>
     </>
   );

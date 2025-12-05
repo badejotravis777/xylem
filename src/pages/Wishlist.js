@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import toast from "react-hot-toast";
+import Footer from "../components/Footer";
 import "./Wishlist.css";
 
 const Wishlist = () => {
@@ -175,6 +176,8 @@ const Wishlist = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };

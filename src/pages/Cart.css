@@ -142,3 +142,124 @@
     cursor: pointer;
   }
   
+
+  /* ============================
+   TABLET — MODERN CLEAN LAYOUT
+============================ */
+@media (max-width: 992px) {
+  .cart-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 330px;
+    gap: 25px;
+  }
+
+  .cart-item-card {
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .cart-item-card img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cart-summary-box {
+    width: 100%;
+  }
+}
+
+/* ============================
+   MOBILE — PREMIUM ECOM STYLE
+============================ */
+@media (max-width: 768px) {
+
+  /* Wrapper becomes one-column but still elegant */
+  .cart-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* PRODUCT LIST → 2-COLUMN GRID like Amazon */
+  .cart-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  /* PRODUCT CARD — more compact, modern */
+  .cart-item-card {
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 14px;
+    gap: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .cart-item-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .item-name {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .item-category {
+    font-size: 11px;
+  }
+
+  .item-price {
+    font-size: 16px;
+  }
+
+  .qty-controls {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
+
+  /* Remove button becomes subtle */
+  .remove-item {
+    padding: 8px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #ff4f4f;
+  }
+
+  /* SUMMARY BOX becomes clean full-width block */
+  .cart-summary-box {
+    width: 100%;
+    order: 10;
+    padding: 18px;
+    border-radius: 14px;
+  }
+}
+
+/* ============================
+   VERY SMALL PHONES
+============================ */
+@media (max-width: 480px) {
+
+  /* Grid becomes 1 column ONLY for very small screens */
+  .cart-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item-card img {
+    height: 140px;
+  }
+
+  .cart-heading {
+    font-size: 22px;
+  }
+
+  .checkout-btn {
+    padding: 12px;
+    font-size: 15px;
+  }
+}

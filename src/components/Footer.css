@@ -1,0 +1,111 @@
+/* WRAPPER */
+.footer {
+    background: #111c27;
+    padding: 60px 0 0;
+    color: #d1d5db;
+    font-family: 'Inter', sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+  }
+  
+  /* GRID LAYOUT */
+  .footer-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    padding-bottom: 50px;
+  }
+  
+  /* TITLES */
+  .footer-title {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  /* LABELS */
+  .footer-label {
+    color: #9ca3af;
+    font-size: 12px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+  
+  /* TEXT */
+  .footer-text {
+    color: #d1d5db;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    max-width: 250px;
+  }
+  
+  /* LINKS */
+  .footer-link {
+    color: #d1d5db;
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: block;
+    text-decoration: none;
+    transition: 0.25s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+    transform: translateX(4px);
+  }
+  
+  /* BOTTOM COPYRIGHT */
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 18px 0;
+    font-size: 14px;
+    color: #9ca3af;
+    letter-spacing: 0.3px;
+  }
+  
+  /* ===========================
+     RESPONSIVE DESIGN
+     =========================== */
+  
+  /* Tablet — Make grid 2x2 */
+  @media (max-width: 900px) {
+    .footer-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+  }
+  
+  /* Mobile — Stack everything in 1 column with spacing */
+  @media (max-width: 600px) {
+    .footer {
+      padding-top: 50px;
+    }
+  
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: 32px;
+      text-align: left;
+    }
+  
+    .footer-title {
+      font-size: 17px;
+    }
+  
+    .footer-text,
+    .footer-link {
+      font-size: 15px;
+    }
+  
+    .footer-bottom {
+      font-size: 13px;
+      padding: 20px 10px;
+    }
+  }
+  

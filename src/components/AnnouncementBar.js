@@ -4,7 +4,9 @@ import "./AnnouncementBar.css";
 const AnnouncementBar = () => {
   return (
     <div className="announcement-bar">
-      🚚 Free delivery on orders above ₦20,000 — Shop now!
+      <div className="scroll-text">
+        Welcome to the new Xylus Store — Your premium shopping experience starts now 
+      </div>
     </div>
   );
 };

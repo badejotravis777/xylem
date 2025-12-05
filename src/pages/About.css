@@ -1,0 +1,205 @@
+/* HERO */
+.about-hero {
+    height: 45vh;
+    background: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .about-hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+  }
+  
+  /* MAIN SECTIONS */
+  .split-section {
+    padding: 80px 10%;
+    text-align: left;
+  }
+  
+  .split-section.alt {
+    background: #f8f9fb;
+  }
+  
+  .text-block {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .text-block h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0d0d0d;
+  }
+  
+  .text-block p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    color: #444;
+  }
+  
+  /* VALUES */
+  .values-section {
+    padding: 80px 10%;
+    text-align: center;
+  }
+  
+  .values-grid {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  
+  .value-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* FEATURED */
+  .featured-products {
+    padding: 100px 8%;
+    text-align: center;
+  }
+  
+  .featured-products h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  /* -------------------------------------- */
+/*              RESPONSIVENESS            */
+/* -------------------------------------- */
+
+/* Large Tablets & Small Laptops */
+@media (max-width: 992px) {
+    .about-hero h1 {
+      font-size: 34px;
+    }
+  
+    .about-hero p {
+      font-size: 16px;
+    }
+  
+    .split-section {
+      padding: 60px 8%;
+    }
+  
+    .values-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    .featured-products {
+      padding: 70px 6%;
+    }
+  }
+  
+  /* Tablets & Big Phones */
+  @media (max-width: 768px) {
+    .about-hero {
+      height: 35vh;
+      padding: 0 15px;
+    }
+  
+    .about-hero h1 {
+      font-size: 28px;
+    }
+  
+    .about-hero p {
+      font-size: 15px;
+    }
+  
+    .split-section {
+      padding: 50px 7%;
+    }
+  
+    .text-block h2 {
+      font-size: 26px;
+    }
+  
+    .values-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .value-card {
+      font-size: 15px;
+      padding: 20px;
+    }
+  
+    .featured-products {
+      padding: 60px 5%;
+    }
+  }
+  
+  /* Small Mobile Phones */
+  @media (max-width: 480px) {
+    .about-hero {
+      height: auto;
+      padding: 50px 15px;
+    }
+  
+    .about-hero h1 {
+      font-size: 24px;
+    }
+  
+    .about-hero p {
+      font-size: 14px;
+    }
+  
+    .split-section {
+      padding: 40px 6%;
+    }
+  
+    .text-block h2 {
+      font-size: 22px;
+    }
+  
+    .text-block p {
+      font-size: 15px;
+    }
+  
+    .values-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .value-card {
+      font-size: 15px;
+      padding: 18px;
+    }
+  
+    .featured-products h2 {
+      font-size: 26px;
+    }
+  
+    .featured-products {
+      padding: 50px 4%;
+    }
+  }
+  
+  

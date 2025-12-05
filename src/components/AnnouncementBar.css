@@ -1,10 +1,29 @@
 .announcement-bar {
-    width: 100%;
-    background: #111;
-    color: #fff;
-    text-align: center;
-    padding: 6px 0;
-    font-size: 14px;
-    letter-spacing: 0.5px;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #0d0d0d, #1a1a1a);
+  color: #f5f5f5;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%; /* Start off screen to the right */
+  animation: scroll-left 12s linear infinite;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
   }
-  
+  to {
+    transform: translateX(-100%); /* Moves to left fully */
+  }
+}

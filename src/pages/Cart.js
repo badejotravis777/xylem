@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import CheckoutModal from "../components/CheckoutModal";
+import Footer from "../components/Footer";
 import "./Cart.css";
 
 const Cart = () => {
@@ -108,7 +109,11 @@ const Cart = () => {
       </div>
 
       <CheckoutModal open={open} onClose={() => setOpen(false)} amount={total} />
+
+
+      <Footer />
     </>
+    
   );
 };
 
