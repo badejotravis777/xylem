@@ -4,7 +4,7 @@ export const products = [
       name: "Hyaluronic acid (HMW) ",
       price: 250000,
       category: "Hyaluronic acids",
-      image: "/assets/Hyaluronic acid (HMW).png",
+      image: "/assets/Hyaluronic acid (LMW)2.png",
       description: "High-molecular-weight hyaluronic acid that provides long-lasting hydration, enhances skin smoothness, and boosts elasticity in moisturizing formulations."
     },
     {
@@ -12,7 +12,7 @@ export const products = [
       name: "Hyaluronic acid (LMW)",
       price: 300000,
       category: "Hyaluronic acids",
-      image: "/assets/Hyaluronic acid (HMW).png",
+      image: "/assets/Hyaluronic acid (HMW)2.png",
       description: "Low-molecular-weight hyaluronic acid that penetrates deeper into the skin to provide intense hydration, improve elasticity, and support anti-aging formulations."
     },
     {
@@ -20,7 +20,7 @@ export const products = [
       name: "Ferulic Acid",
       price: 150000,
       category: "Actives",
-      image: "/assets/Ferulic Acid.png",
+      image: "/assets/Ferulic Acid2.png",
       description: "A powerful antioxidant that enhances the stability and effectiveness of vitamins C & E while protecting skin from environmental damage."
     },
     {
@@ -28,7 +28,7 @@ export const products = [
       name: "Bromelin enzyme",
       price: 65000,
       category: "Powders/Enzymes",
-      image: "/assets/Bromelin enzyme.png",
+      image: "/assets/Bromelin enzyme2.png",
       description: "A natural exfoliating enzyme derived from pineapple that gently removes dead skin cells and promotes smoother, brighter skin."
     },
     {
@@ -36,7 +36,7 @@ export const products = [
       name: "Papain enzyme",
       price: 35000,
       category: "Powders/Enzymes",
-      image: "/assets/Papain enzyme.png",
+      image: "/assets/Papain enzyme2.png",
       description: "A mild, plant-based exfoliating enzyme from papaya used to improve skin texture and clarity."
     },
     {
@@ -53,7 +53,7 @@ export const products = [
         name: "Azelaic acid",
         price: 55000,
         category: "Powders/Enzymes",
-        image: "/assets/Azelaic acid.png",
+        image: "/assets/Azelaic acid2.png",
         description: "A multifunctional brightening and anti-inflammatory ingredient that helps treat acne, reduce redness, and fade dark spots."
       },
 
@@ -62,7 +62,7 @@ export const products = [
         name: "Odour Shield (zinc ricinoleate) ",
         price: 65000,
         category: "Powders/Enzymes",
-        image: "/assets/Odour Shield (zinc ricinoleate).png",
+        image: "/assets/Odour Shield (zinc ricinoleate)2.png",
         description: "An effective deodorizing agent that traps and neutralizes odors without disrupting natural skin microbiome."
       },
 
@@ -71,7 +71,7 @@ export const products = [
         name: "Zinc PCA",
         price: 170000,
         category: "Powders/Enzymes",
-        image: "/assets/Zinc PCA.png",
+        image: "/assets/Zinc PCA2.png",
         description: "A soothing and oil-regulating active that reduces sebum production and supports acne-prone skin."
       },
 
@@ -80,7 +80,7 @@ export const products = [
         name: "Crothix",
         price: 65000,
         category: "Powders/Enzymes",
-        image: "/assets/Crothix.png",
+        image: "/assets/Crothix2.png",
         description: "A liquid thickener that increases the viscosity of surfactant systems while improving clarity and stability."
       },
 
@@ -89,7 +89,7 @@ export const products = [
         name: "Sepi White MSH ",
         price: 400000,
         category: "Powders/Enzymes",
-        image: "/assets/Sepi White MSH.png",
+        image: "/assets/Sepi White MSH2.png",
         description: "A premium brightening active that targets pigmentation and helps achieve an even, radiant complexion."
       },
 
@@ -98,7 +98,7 @@ export const products = [
         name: "Symwhite",
         price: 350000,
         category: "Powders/Enzymes",
-        image: "/assets/Symwhite.png",
+        image: "/assets/Symwhite2.png",
         description: "A powerful antioxidant and brightening ingredient that reduces discoloration and supports a more luminous skin tone."
       },
 
@@ -107,7 +107,7 @@ export const products = [
         name: "Alpha Arbutin",
         price: 150000,
         category: "Powders/Enzymes",
-        image: "/assets/Alpha Arbutin.png",
+        image: "/assets/Alpha Arbutin2.png",
         description: "A gentle and highly effective skin-brightening active used to fade dark spots and even out skin tone."
       },
 
@@ -116,7 +116,7 @@ export const products = [
         name: "Kojic dipalmitate",
         price: 75000,
         category: "Powders/Enzymes",
-        image: "/assets/Kojic dipalmitate.png",
+        image: "/assets/Kojic dipalmitate2.png",
         description: "A stable, oil-soluble brightening agent that helps reduce pigmentation and promote a more uniform complexion."
       },
 
@@ -125,7 +125,7 @@ export const products = [
         name: "Gluconolactone",
         price: 20000,
         category: "Powders/Enzymes",
-        image: "/assets/Gluconolactone.png",
+        image: "/assets/Gluconolactone2.png",
         description: "A gentle PHA that exfoliates, hydrates, and supports sensitive skin while improving overall texture."
       },
 
@@ -144,7 +144,7 @@ export const products = [
         name: "Oat beta glucan ",
         price: 65000,
         category: "Powders/Enzymes",
-        image: "/assets/Oat beta glucan.png",
+        image: "/assets/Oat beta glucan2.png",
         description: "A calming, hydrating active known for reducing irritation and strengthening the skin barrier."
       },
 
@@ -154,7 +154,7 @@ export const products = [
         name: "Silky peptide",
         price: 100000,
         category: "Powders/Enzymes",
-        image: "/assets/Silky peptide.png",
+        image: "/assets/Silky peptide2.png",
         description: "A smoothing peptide that enhances skin softness, texture, and overall appearance."
       },
 
@@ -163,7 +163,7 @@ export const products = [
         name: "Lotionpro",
         price: 15000,
         category: "Powders/Enzymes",
-        image: "/assets/Lotionpro.png",
+        image: "/assets/Lotionpro2.png",
         description: "A premium emulsifier that creates stable, silky lotions and creams with excellent skin feel.."
       },
 
@@ -172,7 +172,7 @@ export const products = [
         name: "DL-Panthenol powder",
         price: 55000,
         category: "Powders/Enzymes",
-        image: "/assets/DL-Panthenol powder.png",
+        image: "/assets/DL-Panthenol powder2.png",
         description: "A pro-vitamin B5 active that hydrates, soothes, and improves skin elasticity."
       },
 
@@ -182,7 +182,7 @@ export const products = [
         name: "Beeswax",
         price: 8500,
         category: "Powders/Enzymes",
-        image: "/assets/Beeswax.png",
+        image: "/assets/Beeswax2.png",
         description: "A natural thickener and stabilizer that provides structure, moisture barrier protection, and a smooth texture."
       },
 
@@ -191,7 +191,7 @@ export const products = [
         name: "Clotrimazole",
         price: 70000,
         category: "Powders/Enzymes",
-        image: "/assets/Clotrimazole.png",
+        image: "/assets/Clotrimazole2.png",
         description: "An antifungal active used to treat and prevent fungal skin infections."
       },
 
@@ -201,7 +201,7 @@ export const products = [
         name: "Xanthan gum",
         price: 8000,
         category: "Powders/Enzymes",
-        image: "/assets/Xanthan gum.png",
+        image: "/assets/Xanthan gum2.png",
         description: "A natural thickener that stabilizes gels, creams, and serums with excellent consistency control"
       },
 
@@ -210,7 +210,7 @@ export const products = [
         name: "Bentonite clay",
         price: 3000,
         category: "Powders/Enzymes",
-        image: "/assets/Bentonite clay.png",
+        image: "/assets/Bentonite clay2.png",
         description: "A detoxifying clay that absorbs excess oil and impurities, ideal for masks and deep-cleansing formulations."
       },
 
@@ -220,7 +220,7 @@ export const products = [
         name: "HEC",
         price: 18000,
         category: "Powders/Enzymes",
-        image: "/assets/HEC.png",
+        image: "/assets/HEC2.png",
         description: "A thickening agent that enhances viscosity and texture in gels, cleansers, and serums."
       },
 
@@ -229,7 +229,7 @@ export const products = [
         name: "Allantoin",
         price: 15000,
         category: "Powders/Enzymes",
-        image: "/assets/Allantoin.png",
+        image: "/assets/Allantoin2.png",
         description: "A soothing and healing ingredient that calms irritation and promotes skin repair."
       },
 
@@ -238,7 +238,7 @@ export const products = [
         name: "Niacinamide",
         price: 20000,
         category: "Powders/Enzymes",
-        image: "/assets/Niacinamide.png",
+        image: "/assets/Niacinamide2.png",
         description: "A versatile active that improves skin tone, strengthens the barrier, reduces oil, and fades dark spots."
       },
 
@@ -256,7 +256,7 @@ export const products = [
         name: "Azone oil",
         price: 45000,
         category: "Liquids/Oils",
-        image: "/assets/Azone oil.png",
+        image: "/assets/Azone oil2.png",
         description: "Deep hydration and long-lasting softness."
       },
 
@@ -275,7 +275,7 @@ export const products = [
         name: "Snail filtrate",
         price: 70000,
         category: "Liquids/Oils",
-        image: "/assets/Snail filtrate.png",
+        image: "/assets/Snail filtrate2.png",
         description: "A hydrating and repairing active that promotes smoothness, elasticity, and skin regeneration."
       },
 
@@ -284,7 +284,7 @@ export const products = [
         name: "Astaxantin oil",
         price: 100000,
         category: "Liquids/Oils",
-        image: "/assets/Astaxantin oil.png",
+        image: "/assets/Astaxantin oil2.png",
         description: "A potent antioxidant oil that protects skin from oxidative stress and supports anti-aging benefits."
       },
 
@@ -293,7 +293,7 @@ export const products = [
         name: "Bergamot oil",
         price: 70000,
         category: "Liquids/Oils",
-        image: "/assets/Bergamot oil.png",
+        image: "/assets/Bergamot oil2.png",
         description: "A refreshing essential oil with antibacterial and balancing properties."
       },
 
@@ -302,7 +302,7 @@ export const products = [
         name: "Teatree essential oil",
         price: 70000,
         category: "Liquids/Oils",
-        image: "/assets/Teatree essential oil.png",
+        image: "/assets/Teatree essential oil2.png",
         description: "A powerful antimicrobial essential oil ideal for acne-prone and reactive skin."
       },
 
@@ -312,7 +312,7 @@ export const products = [
         name: "Geranium Essential Oil",
         price: 80000,
         category: "Liquids/Oils",
-        image: "/assets/Geranium Essential Oil.png",
+        image: "/assets/Geranium Essential Oil2.png",
         description: "A balancing essential oil that supports skin regeneration and helps regulate oil production."
       },
 
@@ -322,7 +322,7 @@ export const products = [
         name: "Lavender essential oil",
         price: 45000,
         category: "Liquids/Oils",
-        image: "/assets/Lavender essential oil.png",
+        image: "/assets/Lavender essential oil2.png",
         description: "A calming essential oil known for soothing skin and reducing irritation."
       },
 
@@ -331,7 +331,7 @@ export const products = [
         name: "Polyquat 7",
         price: 12000,
         category: "Liquids/Oils",
-        image: "/assets/Polyquat 7.png",
+        image: "/assets/Polyquat 72.png",
         description: "A conditioning agent that improves softness and detangling in haircare formulations."
       },
 
@@ -340,7 +340,7 @@ export const products = [
         name: "Polysorbate 80",
         price: 10000,
         category: "Liquids/Oils",
-        image: "/assets/Polysorbate 80.png",
+        image: "/assets/Polysorbate 802.png",
         description: "A solubilizer and emulsifier used to blend oils with water in sprays, serums, and cleansers."
       },
 
@@ -349,7 +349,7 @@ export const products = [
         name: "Caprylic triglycerides",
         price: 28000,
         category: "Liquids/Oils",
-        image: "/assets/Caprylic triglycerides.png",
+        image: "/assets/Caprylic triglycerides2.png",
         description: "A lightweight, non-greasy emollient that softens skin and enhances product glide."
       },
 
@@ -359,7 +359,7 @@ export const products = [
         name: "PEG 40 (hydrogenated castor) ",
         price: 20000,
         category: "Liquids/Oils",
-        image: "/assets/PEG 40 (hydrogenated castor).png",
+        image: "/assets/PEG 40 (hydrogenated castor)2.png",
         description: "A solubilizer used to blend essential oils, fragrances, and actives into water-based formulas."
       },
 
@@ -368,7 +368,7 @@ export const products = [
         name: "PEG 7",
         price: 15000,
         category: "Liquids/Oils",
-        image: "/assets/PEG 7.png",
+        image: "/assets/PEG 72.png",
         description: "A mild emollient and surfactant that adds softness and improves skin feel."
       },
 
@@ -378,7 +378,7 @@ export const products = [
         name: "Sepi Max Zen",
         price: 20000,
         category: "Liquids/Oils",
-        image: "/assets/Sepi Max Zen.png",
+        image: "/assets/Sepi Max Zen2.png",
         description: "A premium polymer that creates elegant, smooth gel creams with high stability and clarity."
       },
 
@@ -387,7 +387,7 @@ export const products = [
         name: "Thiamidol ",
         price: 190000,
         category: "Liquids/Oils",
-        image: "/assets/Thiamidol.png",
+        image: "/assets/Thiamidol2.png",
         description: "A highly advanced brightening active that targets dark spots with clinical effectiveness."
       },
 
@@ -397,7 +397,7 @@ export const products = [
         name: "Matrixyl 3000 ",
         price: 30000,
         category: "Liquids/Oils",
-        image: "/assets/Matrixyl 3000.png",
+        image: "/assets/Matrixyl 30002.png",
         description: "A peptide complex that boosts collagen production and reduces visible signs of aging."
       },
 
@@ -407,7 +407,7 @@ export const products = [
         name: "Acetyl hexapeptide-8",
         price: 20000,
         category: "Liquids/Oils",
-        image: "/assets/Acetyl hexapeptide-8.png",
+        image: "/assets/Acetyl hexapeptide-82.png",
         description: "A well-known peptide that softens expression lines and supports anti-aging formulations."
       },
 
