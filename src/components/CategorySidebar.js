@@ -5,6 +5,7 @@ const categories = [
   "Actives",
   "Powders/Enzymes",
   "Liquids/Oils",
+  "Specialty"
 ];
 
 const CategorySidebar = ({ selected, onSelect }) => {
