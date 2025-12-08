@@ -87,7 +87,8 @@ const ProductCard = ({ product }) => {
       <div className="pro-card-info">
         <p className="pro-category">{product.category}</p>
         <h3 className="pro-title">{product.name}</h3>
-        <p className="pro-price">₦{product.price.toLocaleString()}</p>
+        <p className="price">₦{product.price.toLocaleString()} {product.unit}</p>
+
       </div>
     </div>
   );

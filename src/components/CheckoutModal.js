@@ -5,9 +5,9 @@ const CheckoutModal = ({ open, onClose, amount }) => {
 
   // Placeholder bank info (you can update these later)
   const bank = {
-    name: "Bank Name (To be updated)",
-    accountName: "Account Name (To be updated)",
-    accountNumber: "0000000000"
+    name: "Zenith bank",
+    accountName: "Xylus chemicals and allied company ltd",
+    accountNumber: "1313657897"
   };
 
   // Updated WhatsApp number
@@ -15,7 +15,7 @@ const CheckoutModal = ({ open, onClose, amount }) => {
     `Hello, I have made payment for my order totaling ₦${amount.toLocaleString()}. Please confirm.`
   );
 
-  const waUrl = `https://wa.me/2348137223401?text=${waMessage}`;
+  const waUrl = `https://wa.me/+2347032084486?text=${waMessage}`;
 
   return (
     <div className="modal-overlay" role="dialog">

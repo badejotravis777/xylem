@@ -101,7 +101,7 @@ const Home = () => {
       {/* WHATSAPP BUTTON */}
       <a
         className="wa-float"
-        href="https://wa.me/2348137223401?text=Hello%20Xylus%20Essentials"
+        href="https://wa.me/+2347032084486?text=Hello%20Xylus%20Essentials"
         target="_blank"
         rel="noopener noreferrer"
       >
