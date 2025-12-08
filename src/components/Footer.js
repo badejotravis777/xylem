@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
 
           <p className="footer-label">PHONE:</p>
-          <p className="footer-text">+2348137223401</p>
+          <p className="footer-text">+2347032084486</p>
         </div>
 
         {/* STORE LINKS */}

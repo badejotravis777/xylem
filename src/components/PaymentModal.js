@@ -4,13 +4,13 @@ const PaymentModal = ({ open, onClose, product }) => {
   if (!open) return null;
 
   const bank = {
-    name: "First Bank",
-    accountName: "Xylus Essentials",
-    accountNumber: "1234567890"
+    name: "Zenith bank",
+    accountName: "Xylus chemicals and allied company ltd",
+    accountNumber: "1313657897"
   };
 
   const waMessage = encodeURIComponent(`Hello Xylus Essentials, I have made payment for ${product.name} (₦${product.price.toLocaleString()}). Please confirm.`)
-  const waUrl = `https://wa.me/234XXXXXXXXXX?text=${waMessage}`;
+  const waUrl = `https://wa.me/+2347032084486?text=${waMessage}`;
 
   return (
     <div className="modal-overlay" role="dialog" aria-modal="true">
