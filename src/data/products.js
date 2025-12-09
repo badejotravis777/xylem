@@ -150,7 +150,7 @@ export const products = [
         price: 65000,
         unit: "per kg",
         category: "Powders/Enzymes",
-        image: "/assets/Yeast beta glucan3.png",
+        image: "/assets/Yeast beta clucan3.png",
         description: "A soothing, protective ingredient that enhances skin repair and boosts moisture retention."
       },
 
@@ -161,7 +161,7 @@ export const products = [
         price: 65000,
         unit: "per kg",
         category: "Powders/Enzymes",
-        image: "/assets/Oat beta glucan3.png",
+        image: "/assets/Oat beta clucan3.png",
         description: "A calming, hydrating active known for reducing irritation and strengthening the skin barrier."
       },
 
