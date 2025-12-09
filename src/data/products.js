@@ -439,7 +439,7 @@ export const products = [
         id: 44,
         name: "Matrixyl 3000 ",
         price: 30000,
-        unit: "per 100ml",
+        unit: "per liter",
         category: "Liquids/Oils",
         image: "/assets/Matrixyl 30002.png",
         description: "A peptide complex that boosts collagen production and reduces visible signs of aging."
