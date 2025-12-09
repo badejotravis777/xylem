@@ -438,7 +438,7 @@ export const products = [
       {
         id: 44,
         name: "Matrixyl 3000 ",
-        price: 300000,
+        price: 30000,
         unit: "per 100ml",
         category: "Liquids/Oils",
         image: "/assets/Matrixyl 30002.png",
@@ -449,7 +449,7 @@ export const products = [
       {
         id: 45,
         name: "Acetyl hexapeptide-8",
-        price: 200000,
+        price: 20000,
         unit: "per 100ml",
         category: "Liquids/Oils",
         image: "/assets/Acetyl hexapeptide-82.png",
@@ -460,8 +460,8 @@ export const products = [
       {
         id: 46,
         name: "Dl Panthenol liquid",
-        price: 200000,
-        unit: "per liter",
+        price: 45000,
+        unit: "per Kg",
         category: "Liquids/Oils",
         image: "/assets/Dl Panthenol liquid.png",
         description: "A highly effective moisturizing and soothing ingredient known for improving skin hydration, enhancing softness, and supporting the skin barrier. Commonly used in lotions, serums, and haircare for its conditioning benefits."
