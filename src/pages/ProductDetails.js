@@ -78,7 +78,7 @@ const ProductDetails = () => {
 
           <div className="pd-price-box">
             <span className="pd-price">
-              ₦{product.price.toLocaleString()}
+            ₦{product.price.toLocaleString()} {product.unit}
             </span>
           </div>
 
