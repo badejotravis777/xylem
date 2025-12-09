@@ -137,7 +137,8 @@ const ProductDetails = () => {
               <img src={item.image} alt={item.name} />
               <p className="pd-related-name">{item.name}</p>
               <p className="pd-related-price">
-                ₦{item.price.toLocaleString()}
+                ₦{item.price.toLocaleString()} {product.unit}
+                
               </p>
             </Link>
           ))}
